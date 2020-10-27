@@ -1,0 +1,16 @@
+@font-face{
+    font-family: Poppins;
+    src: url("/Assets/Fonts/Poppins-SemiBold.ttf");
+}
+:root{
+    --color-main: #F49B0C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+main{
+    width: 100%;
+}

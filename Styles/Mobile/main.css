@@ -1,0 +1,48 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 35px;
+}
+.logo_mobile {
+  width: auto;
+  height: 15vh;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  height: 300px;
+}
+.entrada {
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  text-align: center;
+  font-size: 1.1rem;
+  transition: 400ms;
+}
+.botao {
+  width: 80%;
+  border-radius: 5px;
+  height: 60px;
+  border: none;
+  background-color: var(--color-main);
+  font-size: 1rem;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+}
